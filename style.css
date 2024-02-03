@@ -29,15 +29,17 @@ header {
 
 .main {
     display: grid;
-    grid-template-columns: 3fr 2fr 2fr 3fr;
-    grid-template-rows: 5vh 40vh 7vh 8vh 10vh 10vh 5vh;
+    grid-template-columns: 5fr 2fr 4fr 4fr;
+    grid-template-rows: 6vh 45vh
+        /*7vh*/
+        10vh 10vh 10vh 7vh;
 }
 
 .main__img {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 5;
     z-index: 10;
 }
 
@@ -49,17 +51,17 @@ header {
 .main__ttl {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    font-size: 4vw;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 4.5vw;
     font-weight: 300;
 }
 
 .main__content {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
     background-color: #00008B;
     z-index: 1;
 }
