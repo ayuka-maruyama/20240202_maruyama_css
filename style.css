@@ -1,3 +1,8 @@
+body {
+    width: 100vw;
+    height: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -29,10 +34,8 @@ header {
 
 .main {
     display: grid;
-    grid-template-columns: 5fr 2fr 4fr 4fr;
-    grid-template-rows: 6vh 45vh
-        /*7vh*/
-        10vh 10vh 10vh 7vh;
+    grid-template-columns: 7fr 3fr 4fr 7fr;
+    grid-template-rows: 7% 50% 15% 10% 10% 7%;
 }
 
 .main__img {
@@ -55,6 +58,7 @@ header {
     grid-row-end: 4;
     font-size: 4.5vw;
     font-weight: 300;
+    padding-top: 5px;
 }
 
 .main__content {
